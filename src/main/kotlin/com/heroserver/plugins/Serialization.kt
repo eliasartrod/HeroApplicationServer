@@ -1,4 +1,4 @@
-package com.hero-server.plugins
+package com.heroserver.plugins
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.plugins.contentnegotiation.*

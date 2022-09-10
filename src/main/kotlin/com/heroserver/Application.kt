@@ -1,7 +1,11 @@
-package com.hero-server
+package com.heroserver
+
+import com.heroserver.plugins.configureMonitoring
+import com.heroserver.plugins.configureRouting
+import com.heroserver.plugins.configureSerialization
 
 import io.ktor.server.application.*
-import com.hero-server.plugins.*
+
 
 fun main(args: Array<String>): Unit =
     io.ktor.server.netty.EngineMain.main(args)

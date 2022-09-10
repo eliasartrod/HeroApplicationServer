@@ -1,4 +1,4 @@
-package com.hero-server.plugins
+package com.heroserver.plugins
 
 import io.ktor.server.routing.*
 import io.ktor.http.*

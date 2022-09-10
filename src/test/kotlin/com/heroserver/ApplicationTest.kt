@@ -1,4 +1,4 @@
-package com.hero-server
+package com.heroserver
 
 import io.ktor.server.routing.*
 import io.ktor.http.*
@@ -13,7 +13,7 @@ import io.ktor.client.request.*
 import io.ktor.client.statement.*
 import kotlin.test.*
 import io.ktor.server.testing.*
-import com.hero-server.plugins.*
+import com.heroserver.plugins.*
 
 class ApplicationTest {
     @Test
